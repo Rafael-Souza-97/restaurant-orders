@@ -21,7 +21,6 @@ class MenuData:
                     all_dishes[dish] = Dish(dish, recipe_price)
 
                 all_dishes[dish].add_ingredient_dependency(
-                    recipe_ingredient, recipe_amount
-                    )
+                    recipe_ingredient, recipe_amount)
 
                 self.dishes = set(all_dishes.values())
